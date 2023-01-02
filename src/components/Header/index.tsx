@@ -4,7 +4,7 @@ import StyledHeader from "./style";
 import { MdLightMode, MdDarkMode } from "react-icons/md";
 
 import { useContext } from "react";
-import { DarkModeContext } from "../../contexts/darkModeContext.js";
+import { DarkModeContext } from "../../contexts/DarkModeContext";
 import { iKenzieBurguerProducts } from "../../pages/HomePage";
 
 interface iHeaderProps {
