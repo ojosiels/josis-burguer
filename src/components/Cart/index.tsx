@@ -27,7 +27,7 @@ const Cart = ({ currentSale, removeFromCart, cartTotal }: iCart) => {
       <section>
         <div className="bodyBold">
           <p>Total:</p>
-          <p>R$ {cartTotal.toFixed(2)}</p>
+          <p>$ {cartTotal.toFixed(2)}</p>
         </div>
         <button onClick={() => removeFromCart(null)}>Clean products</button>
       </section>
