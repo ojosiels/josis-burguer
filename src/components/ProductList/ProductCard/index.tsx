@@ -14,7 +14,7 @@ const ProductCard = ({ product, addToCart }: iProductCardProps) => {
       <section>
         <h2 className="heading3">{product.name}</h2>
         <p className="caption">{product.category}</p>
-        <p className="bodyBold">R$ {product.price}</p>
+        <p className="bodyBold">$ {product.price}</p>
         <button className="green medium" onClick={() => addToCart(product)}>
           Add
         </button>
