@@ -19,7 +19,7 @@ const CartCard = ({ saleItem, removeFromCart }: iCartCard) => {
 
       <div>
         <p className="bodyText" onClick={() => removeFromCart(saleItem)}>
-          Remover
+          Remove
         </p>
         <p className="bodyText">Qtd: {saleItem.quantity}</p>
       </div>
